@@ -1,6 +1,6 @@
 # whats-cookin-api
 
-This repo was created to be used with the wc-refactor-tractor project.
+This repo was created to be used with the whats cookin project.
 
 ## Set Up
 
