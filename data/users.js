@@ -1,12 +1,8 @@
-module.exports = [
+let usersData = [
   {
     "name": "Saige O'Kon",
     "id": 1,
     "pantry": [
-      {
-        "ingredient": 11477,
-        "amount": 4
-      },
       {
         "ingredient": 11297,
         "amount": 4
@@ -384,7 +380,20 @@ module.exports = [
       {
         "ingredient": 11206,
         "amount": 2
-      }
+      },
+      {
+          "ingredient": 19350,
+          "amount": 2
+      },
+      {
+          "ingredient": 9099,
+          "amount": 18
+      },
+      {
+          "ingredient": 14412,
+          "amount": 3
+      },
+
     ]
   },
   {
@@ -5500,179 +5509,10 @@ module.exports = [
       }
     ]
   },
-  {
-    "name": "Jaydon Rosenbaum",
-    "id": 36,
-    "pantry": [
-      {
-        "ingredient": 19177,
-        "amount": 2
-      },
-      {
-        "ingredient": 1123,
-        "amount": 8
-      },
-      {
-        "ingredient": 11291,
-        "amount": 2
-      },
-      {
-        "ingredient": 1012010,
-        "amount": 3
-      },
-      {
-        "ingredient": 1125,
-        "amount": 4
-      },
-      {
-        "ingredient": 9037,
-        "amount": 4
-      },
-      {
-        "ingredient": 19335,
-        "amount": 8
-      },
-      {
-        "ingredient": 1082047,
-        "amount": 7
-      },
-      {
-        "ingredient": 11297,
-        "amount": 4
-      },
-      {
-        "ingredient": 11124,
-        "amount": 6
-      },
-      {
-        "ingredient": 1002030,
-        "amount": 7
-      },
-      {
-        "ingredient": 20081,
-        "amount": 5
-      },
-      {
-        "ingredient": 18371,
-        "amount": 7
-      },
-      {
-        "ingredient": 18372,
-        "amount": 6
-      },
-      {
-        "ingredient": 4053,
-        "amount": 11
-      },
-      {
-        "ingredient": 9152,
-        "amount": 6
-      },
-      {
-        "ingredient": 2047,
-        "amount": 15
-      },
-      {
-        "ingredient": 93607,
-        "amount": 3
-      },
-      {
-        "ingredient": 1011256,
-        "amount": 5
-      },
-      {
-        "ingredient": 1001,
-        "amount": 9
-      },
-      {
-        "ingredient": 2050,
-        "amount": 4
-      },
-      {
-        "ingredient": 19336,
-        "amount": 4
-      },
-      {
-        "ingredient": 11282,
-        "amount": 6
-      },
-      {
-        "ingredient": 19206,
-        "amount": 4
-      },
-      {
-        "ingredient": 6172,
-        "amount": 2
-      },
-      {
-        "ingredient": 11529,
-        "amount": 5
-      },
-      {
-        "ingredient": 2025,
-        "amount": 2
-      },
-      {
-        "ingredient": 11215,
-        "amount": 8
-      },
-      {
-        "ingredient": 19296,
-        "amount": 3
-      },
-      {
-        "ingredient": 11477,
-        "amount": 3
-      },
-      {
-        "ingredient": 14412,
-        "amount": 5
-      },
-      {
-        "ingredient": 10511282,
-        "amount": 2
-      },
-      {
-        "ingredient": 1002014,
-        "amount": 2
-      },
-      {
-        "ingredient": 12135,
-        "amount": 2
-      },
-      {
-        "ingredient": 1077,
-        "amount": 2
-      },
-      {
-        "ingredient": 1124,
-        "amount": 4
-      },
-      {
-        "ingredient": 2031,
-        "amount": 2
-      },
-      {
-        "ingredient": 99223,
-        "amount": 2
-      },
-      {
-        "ingredient": 1032009,
-        "amount": 4
-      },
-      {
-        "ingredient": 2009,
-        "amount": 2
-      },
-      {
-        "ingredient": 1145,
-        "amount": 2
-      }
-    ]
-  },
+ 
   {
     "name": "Bryon Baumbach",
-    "id": 37,
+    "id": 36,
     "pantry": [
       {
         "ingredient": 4025,
@@ -5746,7 +5586,7 @@ module.exports = [
   },
   {
     "name": "Lamar Brown",
-    "id": 38,
+    "id": 37,
     "pantry": [
       {
         "ingredient": 18372,
@@ -5900,7 +5740,7 @@ module.exports = [
   },
   {
     "name": "Christophe Deckow",
-    "id": 39,
+    "id": 38,
     "pantry": [
       {
         "ingredient": 4053,
@@ -5936,7 +5776,7 @@ module.exports = [
       },
       {
         "ingredient": 1001,
-        "amount": 7
+        "amount": 8
       },
       {
         "ingredient": 1032009,
@@ -6128,13 +5968,26 @@ module.exports = [
       },
       {
         "ingredient": 19296,
-        "amount": 3
-      }
+        "amount": 13
+      },
+      {
+          "ingredient": 20011,
+          "amount": 3
+      },
+      {
+          "ingredient": 1230,
+          "amount": 3
+      },
+      {
+          "ingredient": 16098,
+          "amount": 13
+      },
+
     ]
   },
   {
     "name": "Noe Conroy",
-    "id": 40,
+    "id": 39,
     "pantry": [
       {
         "ingredient": 4053,
@@ -6300,7 +6153,7 @@ module.exports = [
   },
   {
     "name": "Demarcus Gusikowski",
-    "id": 41,
+    "id": 40,
     "pantry": [
       {
         "ingredient": 2009,
@@ -6374,7 +6227,7 @@ module.exports = [
   },
   {
     "name": "Taya Bartell",
-    "id": 42,
+    "id": 41,
     "pantry": [
       {
         "ingredient": 1082047,
@@ -6472,7 +6325,7 @@ module.exports = [
   },
   {
     "name": "Edward Ankunding",
-    "id": 43,
+    "id": 42,
     "pantry": [
       {
         "ingredient": 11282,
@@ -6576,7 +6429,7 @@ module.exports = [
       },
       {
         "ingredient": 1123,
-        "amount": 2
+        "amount": 3
       },
       {
         "ingredient": 11333,
@@ -6609,995 +6462,26 @@ module.exports = [
       {
         "ingredient": 1034053,
         "amount": 2
+      },
+      {
+          "ingredient": 19206,
+          "amount": 4
+        },
+      {
+          "ingredient": 19334,
+          "amount": 1
+      },
+      {
+          "ingredient": 1012047,
+          "amount": 30
+      },
+      {
+          "ingredient": 10019903,
+          "amount": 4
       }
     ]
   },
-  {
-    "name": "Madaline Boyer",
-    "id": 44,
-    "pantry": [
-      {
-        "ingredient": 4053,
-        "amount": 11
-      },
-      {
-        "ingredient": 1077,
-        "amount": 3
-      },
-      {
-        "ingredient": 1033,
-        "amount": 2
-      },
-      {
-        "ingredient": 2050,
-        "amount": 7
-      },
-      {
-        "ingredient": 1001,
-        "amount": 9
-      },
-      {
-        "ingredient": 1025,
-        "amount": 2
-      },
-      {
-        "ingredient": 16124,
-        "amount": 2
-      },
-      {
-        "ingredient": 2031,
-        "amount": 3
-      },
-      {
-        "ingredient": 18372,
-        "amount": 4
-      },
-      {
-        "ingredient": 1123,
-        "amount": 5
-      },
-      {
-        "ingredient": 1102047,
-        "amount": 5
-      },
-      {
-        "ingredient": 12061,
-        "amount": 4
-      },
-      {
-        "ingredient": 11424,
-        "amount": 2
-      },
-      {
-        "ingredient": 19335,
-        "amount": 8
-      },
-      {
-        "ingredient": 1082047,
-        "amount": 4
-      },
-      {
-        "ingredient": 2047,
-        "amount": 10
-      },
-      {
-        "ingredient": 9152,
-        "amount": 6
-      },
-      {
-        "ingredient": 20081,
-        "amount": 6
-      },
-      {
-        "ingredient": 20027,
-        "amount": 2
-      },
-      {
-        "ingredient": 19296,
-        "amount": 4
-      },
-      {
-        "ingredient": 18371,
-        "amount": 3
-      },
-      {
-        "ingredient": 11282,
-        "amount": 9
-      },
-      {
-        "ingredient": 10011693,
-        "amount": 2
-      },
-      {
-        "ingredient": 11215,
-        "amount": 6
-      },
-      {
-        "ingredient": 2028,
-        "amount": 3
-      },
-      {
-        "ingredient": 19336,
-        "amount": 4
-      },
-      {
-        "ingredient": 14106,
-        "amount": 3
-      },
-      {
-        "ingredient": 19334,
-        "amount": 4
-      },
-      {
-        "ingredient": 10511282,
-        "amount": 3
-      },
-      {
-        "ingredient": 11821,
-        "amount": 2
-      },
-      {
-        "ingredient": 1214,
-        "amount": 2
-      },
-      {
-        "ingredient": 14412,
-        "amount": 2
-      },
-      {
-        "ingredient": 9003,
-        "amount": 2
-      },
-      {
-        "ingredient": 9302,
-        "amount": 2
-      },
-      {
-        "ingredient": 11124,
-        "amount": 5
-      },
-      {
-        "ingredient": 2027,
-        "amount": 6
-      },
-      {
-        "ingredient": 1012010,
-        "amount": 3
-      },
-      {
-        "ingredient": 1017,
-        "amount": 2
-      },
-      {
-        "ingredient": 9019,
-        "amount": 2
-      },
-      {
-        "ingredient": 2015,
-        "amount": 2
-      },
-      {
-        "ingredient": 9040,
-        "amount": 2
-      },
-      {
-        "ingredient": 1002030,
-        "amount": 2
-      },
-      {
-        "ingredient": 6194,
-        "amount": 2
-      },
-      {
-        "ingredient": 11529,
-        "amount": 3
-      },
-      {
-        "ingredient": 1002014,
-        "amount": 3
-      },
-      {
-        "ingredient": 11333,
-        "amount": 2
-      }
-    ]
-  },
-  {
-    "name": "Noemi Raynor",
-    "id": 45,
-    "pantry": [
-      {
-        "ingredient": 2047,
-        "amount": 12
-      },
-      {
-        "ingredient": 11165,
-        "amount": 2
-      },
-      {
-        "ingredient": 10511282,
-        "amount": 3
-      },
-      {
-        "ingredient": 20081,
-        "amount": 5
-      },
-      {
-        "ingredient": 11215,
-        "amount": 8
-      },
-      {
-        "ingredient": 4053,
-        "amount": 3
-      },
-      {
-        "ingredient": 6194,
-        "amount": 2
-      },
-      {
-        "ingredient": 19334,
-        "amount": 3
-      },
-      {
-        "ingredient": 2009,
-        "amount": 2
-      },
-      {
-        "ingredient": 9003,
-        "amount": 2
-      },
-      {
-        "ingredient": 1082047,
-        "amount": 4
-      },
-      {
-        "ingredient": 14412,
-        "amount": 3
-      },
-      {
-        "ingredient": 1102047,
-        "amount": 3
-      },
-      {
-        "ingredient": 19335,
-        "amount": 6
-      },
-      {
-        "ingredient": 1001,
-        "amount": 6
-      },
-      {
-        "ingredient": 2025,
-        "amount": 3
-      },
-      {
-        "ingredient": 1145,
-        "amount": 2
-      },
-      {
-        "ingredient": 11124,
-        "amount": 2
-      },
-      {
-        "ingredient": 1077,
-        "amount": 2
-      },
-      {
-        "ingredient": 1123,
-        "amount": 3
-      },
-      {
-        "ingredient": 1034053,
-        "amount": 4
-      },
-      {
-        "ingredient": 15152,
-        "amount": 2
-      },
-      {
-        "ingredient": 1011256,
-        "amount": 2
-      },
-      {
-        "ingredient": 18371,
-        "amount": 3
-      },
-      {
-        "ingredient": 2049,
-        "amount": 2
-      },
-      {
-        "ingredient": 11529,
-        "amount": 3
-      },
-      {
-        "ingredient": 9152,
-        "amount": 3
-      },
-      {
-        "ingredient": 2050,
-        "amount": 4
-      },
-      {
-        "ingredient": 12061,
-        "amount": 3
-      }
-    ]
-  },
-  {
-    "name": "Zetta Bogisich",
-    "id": 46,
-    "pantry": [
-      {
-        "ingredient": 2050,
-        "amount": 3
-      },
-      {
-        "ingredient": 2047,
-        "amount": 5
-      },
-      {
-        "ingredient": 9152,
-        "amount": 2
-      },
-      {
-        "ingredient": 19335,
-        "amount": 4
-      },
-      {
-        "ingredient": 1145,
-        "amount": 3
-      },
-      {
-        "ingredient": 10220445,
-        "amount": 2
-      },
-      {
-        "ingredient": 4053,
-        "amount": 2
-      },
-      {
-        "ingredient": 12061,
-        "amount": 2
-      },
-      {
-        "ingredient": 11215,
-        "amount": 3
-      },
-      {
-        "ingredient": 18372,
-        "amount": 4
-      },
-      {
-        "ingredient": 1001,
-        "amount": 2
-      },
-      {
-        "ingredient": 2021,
-        "amount": 2
-      },
-      {
-        "ingredient": 16124,
-        "amount": 2
-      },
-      {
-        "ingredient": 12142,
-        "amount": 2
-      },
-      {
-        "ingredient": 20081,
-        "amount": 3
-      },
-      {
-        "ingredient": 1034053,
-        "amount": 2
-      },
-      {
-        "ingredient": 6150,
-        "amount": 2
-      },
-      {
-        "ingredient": 11821,
-        "amount": 2
-      }
-    ]
-  },
-  {
-    "name": "Virginie Little",
-    "id": 47,
-    "pantry": [
-      {
-        "ingredient": 16124,
-        "amount": 5
-      },
-      {
-        "ingredient": 19335,
-        "amount": 14
-      },
-      {
-        "ingredient": 4053,
-        "amount": 16
-      },
-      {
-        "ingredient": 2050,
-        "amount": 9
-      },
-      {
-        "ingredient": 18372,
-        "amount": 5
-      },
-      {
-        "ingredient": 11282,
-        "amount": 10
-      },
-      {
-        "ingredient": 9019,
-        "amount": 2
-      },
-      {
-        "ingredient": 9150,
-        "amount": 3
-      },
-      {
-        "ingredient": 1123,
-        "amount": 11
-      },
-      {
-        "ingredient": 11821,
-        "amount": 3
-      },
-      {
-        "ingredient": 10211821,
-        "amount": 3
-      },
-      {
-        "ingredient": 20081,
-        "amount": 11
-      },
-      {
-        "ingredient": 2025,
-        "amount": 3
-      },
-      {
-        "ingredient": 11463,
-        "amount": 2
-      },
-      {
-        "ingredient": 12120,
-        "amount": 2
-      },
-      {
-        "ingredient": 9160,
-        "amount": 5
-      },
-      {
-        "ingredient": 1082047,
-        "amount": 5
-      },
-      {
-        "ingredient": 1077,
-        "amount": 6
-      },
-      {
-        "ingredient": 1033,
-        "amount": 3
-      },
-      {
-        "ingredient": 1001,
-        "amount": 9
-      },
-      {
-        "ingredient": 10011282,
-        "amount": 2
-      },
-      {
-        "ingredient": 1214,
-        "amount": 2
-      },
-      {
-        "ingredient": 1032009,
-        "amount": 7
-      },
-      {
-        "ingredient": 11529,
-        "amount": 7
-      },
-      {
-        "ingredient": 1230,
-        "amount": 2
-      },
-      {
-        "ingredient": 9016,
-        "amount": 2
-      },
-      {
-        "ingredient": 14412,
-        "amount": 7
-      },
-      {
-        "ingredient": 1017,
-        "amount": 3
-      },
-      {
-        "ingredient": 2027,
-        "amount": 6
-      },
-      {
-        "ingredient": 2047,
-        "amount": 14
-      },
-      {
-        "ingredient": 20027,
-        "amount": 2
-      },
-      {
-        "ingredient": 14106,
-        "amount": 6
-      },
-      {
-        "ingredient": 1002030,
-        "amount": 4
-      },
-      {
-        "ingredient": 11124,
-        "amount": 4
-      },
-      {
-        "ingredient": 2028,
-        "amount": 6
-      },
-      {
-        "ingredient": 9152,
-        "amount": 10
-      },
-      {
-        "ingredient": 1124,
-        "amount": 4
-      },
-      {
-        "ingredient": 11165,
-        "amount": 2
-      },
-      {
-        "ingredient": 5114,
-        "amount": 2
-      },
-      {
-        "ingredient": 1102047,
-        "amount": 5
-      },
-      {
-        "ingredient": 93607,
-        "amount": 2
-      },
-      {
-        "ingredient": 19296,
-        "amount": 4
-      },
-      {
-        "ingredient": 9003,
-        "amount": 3
-      },
-      {
-        "ingredient": 11206,
-        "amount": 2
-      },
-      {
-        "ingredient": 11291,
-        "amount": 3
-      },
-      {
-        "ingredient": 15152,
-        "amount": 2
-      },
-      {
-        "ingredient": 11215,
-        "amount": 9
-      },
-      {
-        "ingredient": 1012047,
-        "amount": 3
-      },
-      {
-        "ingredient": 11477,
-        "amount": 3
-      },
-      {
-        "ingredient": 93828,
-        "amount": 2
-      },
-      {
-        "ingredient": 1012010,
-        "amount": 2
-      },
-      {
-        "ingredient": 19206,
-        "amount": 3
-      },
-      {
-        "ingredient": 12135,
-        "amount": 3
-      },
-      {
-        "ingredient": 10011693,
-        "amount": 2
-      },
-      {
-        "ingredient": 18371,
-        "amount": 5
-      },
-      {
-        "ingredient": 6615,
-        "amount": 2
-      },
-      {
-        "ingredient": 9156,
-        "amount": 2
-      },
-      {
-        "ingredient": 1145,
-        "amount": 6
-      },
-      {
-        "ingredient": 19911,
-        "amount": 2
-      },
-      {
-        "ingredient": 10611282,
-        "amount": 2
-      },
-      {
-        "ingredient": 1089003,
-        "amount": 3
-      },
-      {
-        "ingredient": 10123,
-        "amount": 2
-      },
-      {
-        "ingredient": 1002014,
-        "amount": 2
-      }
-    ]
-  },
-  {
-    "name": "Flossie Schamberger",
-    "id": 48,
-    "pantry": [
-      {
-        "ingredient": 11297,
-        "amount": 3
-      },
-      {
-        "ingredient": 16057,
-        "amount": 2
-      },
-      {
-        "ingredient": 4053,
-        "amount": 2
-      },
-      {
-        "ingredient": 2050,
-        "amount": 4
-      },
-      {
-        "ingredient": 11282,
-        "amount": 4
-      },
-      {
-        "ingredient": 1123,
-        "amount": 5
-      },
-      {
-        "ingredient": 11215,
-        "amount": 6
-      },
-      {
-        "ingredient": 18371,
-        "amount": 2
-      },
-      {
-        "ingredient": 1082047,
-        "amount": 6
-      },
-      {
-        "ingredient": 11143,
-        "amount": 2
-      },
-      {
-        "ingredient": 9016,
-        "amount": 2
-      },
-      {
-        "ingredient": 11529,
-        "amount": 2
-      },
-      {
-        "ingredient": 2047,
-        "amount": 6
-      },
-      {
-        "ingredient": 12061,
-        "amount": 2
-      },
-      {
-        "ingredient": 20081,
-        "amount": 7
-      },
-      {
-        "ingredient": 19335,
-        "amount": 6
-      },
-      {
-        "ingredient": 1001,
-        "amount": 2
-      },
-      {
-        "ingredient": 1011256,
-        "amount": 4
-      },
-      {
-        "ingredient": 14412,
-        "amount": 2
-      },
-      {
-        "ingredient": 1145,
-        "amount": 2
-      },
-      {
-        "ingredient": 99223,
-        "amount": 2
-      },
-      {
-        "ingredient": 18372,
-        "amount": 4
-      },
-      {
-        "ingredient": 9150,
-        "amount": 2
-      },
-      {
-        "ingredient": 14106,
-        "amount": 2
-      },
-      {
-        "ingredient": 9003,
-        "amount": 2
-      },
-      {
-        "ingredient": 11124,
-        "amount": 2
-      },
-      {
-        "ingredient": 1124,
-        "amount": 2
-      }
-    ]
-  },
-  {
-    "name": "Rocky Padberg",
-    "id": 49,
-    "pantry": [
-      {
-        "ingredient": 18371,
-        "amount": 10
-      },
-      {
-        "ingredient": 18372,
-        "amount": 8
-      },
-      {
-        "ingredient": 10123,
-        "amount": 2
-      },
-      {
-        "ingredient": 2050,
-        "amount": 12
-      },
-      {
-        "ingredient": 14106,
-        "amount": 6
-      },
-      {
-        "ingredient": 10511282,
-        "amount": 4
-      },
-      {
-        "ingredient": 2047,
-        "amount": 17
-      },
-      {
-        "ingredient": 1123,
-        "amount": 9
-      },
-      {
-        "ingredient": 20081,
-        "amount": 14
-      },
-      {
-        "ingredient": 20027,
-        "amount": 4
-      },
-      {
-        "ingredient": 12142,
-        "amount": 4
-      },
-      {
-        "ingredient": 10011693,
-        "amount": 3
-      },
-      {
-        "ingredient": 19296,
-        "amount": 3
-      },
-      {
-        "ingredient": 19912,
-        "amount": 2
-      },
-      {
-        "ingredient": 1082047,
-        "amount": 7
-      },
-      {
-        "ingredient": 1011256,
-        "amount": 2
-      },
-      {
-        "ingredient": 1032009,
-        "amount": 5
-      },
-      {
-        "ingredient": 6615,
-        "amount": 6
-      },
-      {
-        "ingredient": 11282,
-        "amount": 4
-      },
-      {
-        "ingredient": 1001,
-        "amount": 13
-      },
-      {
-        "ingredient": 4053,
-        "amount": 13
-      },
-      {
-        "ingredient": 9160,
-        "amount": 2
-      },
-      {
-        "ingredient": 19336,
-        "amount": 3
-      },
-      {
-        "ingredient": 11333,
-        "amount": 2
-      },
-      {
-        "ingredient": 19335,
-        "amount": 16
-      },
-      {
-        "ingredient": 11297,
-        "amount": 6
-      },
-      {
-        "ingredient": 2044,
-        "amount": 3
-      },
-      {
-        "ingredient": 9216,
-        "amount": 2
-      },
-      {
-        "ingredient": 11215,
-        "amount": 11
-      },
-      {
-        "ingredient": 2021,
-        "amount": 2
-      },
-      {
-        "ingredient": 11529,
-        "amount": 7
-      },
-      {
-        "ingredient": 1145,
-        "amount": 5
-      },
-      {
-        "ingredient": 14412,
-        "amount": 2
-      },
-      {
-        "ingredient": 2009,
-        "amount": 2
-      },
-      {
-        "ingredient": 1034053,
-        "amount": 3
-      },
-      {
-        "ingredient": 9016,
-        "amount": 2
-      },
-      {
-        "ingredient": 2025,
-        "amount": 3
-      },
-      {
-        "ingredient": 10011282,
-        "amount": 2
-      },
-      {
-        "ingredient": 2031,
-        "amount": 2
-      },
-      {
-        "ingredient": 16057,
-        "amount": 2
-      },
-      {
-        "ingredient": 2049,
-        "amount": 2
-      },
-      {
-        "ingredient": 1025,
-        "amount": 2
-      },
-      {
-        "ingredient": 12135,
-        "amount": 3
-      },
-      {
-        "ingredient": 1053,
-        "amount": 4
-      },
-      {
-        "ingredient": 1230,
-        "amount": 3
-      },
-      {
-        "ingredient": 9040,
-        "amount": 3
-      },
-      {
-        "ingredient": 1089003,
-        "amount": 2
-      },
-      {
-        "ingredient": 11477,
-        "amount": 2
-      },
-      {
-        "ingredient": 9019,
-        "amount": 4
-      },
-      {
-        "ingredient": 6194,
-        "amount": 2
-      },
-      {
-        "ingredient": 2027,
-        "amount": 3
-      },
-      {
-        "ingredient": 1002030,
-        "amount": 2
-      },
-      {
-        "ingredient": 9156,
-        "amount": 2
-      },
-      {
-        "ingredient": 1002014,
-        "amount": 3
-      },
-      {
-        "ingredient": 1124,
-        "amount": 2
-      }
-    ]
-  }
 ]
+module.exports = {
+  usersData
+}
