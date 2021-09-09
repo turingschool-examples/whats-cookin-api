@@ -1,4 +1,4 @@
-module.exports  = [
+let ingredientsData = [
   {
     "id": 20081,
     "name": "wheat flour",
@@ -1233,3 +1233,4 @@ module.exports  = [
     "estimatedCostInCents": 613
   }
 ]
+module.exports = ingredientsData
