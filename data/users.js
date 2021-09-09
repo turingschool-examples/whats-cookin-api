@@ -1,4 +1,4 @@
-let usersData = [
+export let usersData = [
   {
     "name": "Saige O'Kon",
     "id": 1,
@@ -6482,6 +6482,4 @@ let usersData = [
     ]
   },
 ]
-module.exports = {
-  usersData
-}
+
