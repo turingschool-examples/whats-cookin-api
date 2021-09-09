@@ -1,4 +1,4 @@
-module.exports = [
+module.exports[
   {
       "id": 595736,
       "image": "https://spoonacular.com/recipeImages/595736-556x370.jpg",

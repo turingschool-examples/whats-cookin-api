@@ -1,4 +1,4 @@
-export let usersData = [
+let usersData =  [
   {
     "name": "Saige O'Kon",
     "id": 1,
@@ -6480,6 +6480,7 @@ export let usersData = [
           "amount": 4
       }
     ]
-  },
+  } 
 ]
+module.exports = usersData
 
