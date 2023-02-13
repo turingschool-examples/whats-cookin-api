@@ -28,10 +28,10 @@ app.get('/api/v1/ingredients', (req, res) => {
   res.status(200).json(app.locals.ingredients);
 });
 
-app.post('/api/v1/users', (req, res) => {
-  const { userID, ingredientID, ingredientModification } = req.body;
+app.post('/api/v1/usersRecipes', (req, res) => {
+  const { userID, recipeID } = req.body;
 
-  for (let requiredParameter of ['userID', 'ingredientID', 'ingredientModification']) {
+  for (let requiredParameter of ['userID', 'recipeID']) {
     if (req.body[requiredParameter] === undefined) {
       return res.status(422).json({
         message: `You are missing a required parameter of ${requiredParameter}`
@@ -44,25 +44,47 @@ app.post('/api/v1/users', (req, res) => {
   if (!foundUser) {
     return res.status(422).json({
       message: `No user found with ID ${userID}`
-    })
-  }
-
-  let pantryToModify = foundUser.pantry.find(pantryItem => pantryItem.ingredient === ingredientID);
-
-  if (!pantryToModify && ingredientModification > 0) {
-    foundUser.pantry.push({ ingredient: ingredientID, amount: ingredientModification });
-    return res.status(201).json({ 
-      message: `${ingredientModification} units of item # ${ingredientID} were added to user ${userID}'s pantry`
     });
-  } 
-
-  if ((pantryToModify && ingredientModification < 0) && (pantryToModify.amount + ingredientModification < 0)) {
-    return res.status(422).json({ message: `The user doesn't have enough of this item.`});
   }
 
-  pantryToModify.amount += ingredientModification;
+  if (foundUser.recipesToCook.includes(recipeID)) {
+    return res.status(422).json({
+      message: `Recipe #${recipeID} is already a recipeToCook for User #${userID}`
+    });
+  }
+
+  foundUser.recipesToCook.push(recipeID);
+
   return res.status(201).json({
-    message: `User # ${userID} has ${pantryToModify.amount} units of item # ${pantryToModify.ingredient}`
+    message: `Recipe #${recipeID} was added for User #${userID}`
+  });
+});
+
+app.delete('/api/v1/usersRecipes', (req, res) => {
+  const { userID, recipeID } = req.body;
+
+  for (let requiredParameter of ['userID', 'recipeID']) {
+    if (req.body[requiredParameter] === undefined) {
+      return res.status(422).json({
+        message: `You are missing a required parameter of ${requiredParameter}`
+      });
+    }
+  }
+
+  const foundUser = users.find(user => user.id === userID);
+
+  if (!foundUser) {
+    return res.status(422).json({
+      message: `No user found with ID ${userID}`
+    });
+  }
+
+  foundUser.recipesToCook = foundUser.recipesToCook.filter(usersRecipeID => {
+    return usersRecipeID !== recipeID;
+  });
+
+  return res.status(200).json({
+    message: `Recipe #${recipeID} was removed for User #${userID}`
   });
 });
 
