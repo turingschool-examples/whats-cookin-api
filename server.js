@@ -17,15 +17,15 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/api/v1/users', (req, res) => {
-  res.status(200).json(app.locals.users);
+  res.status(200).json({ users: app.locals.users });
 });
 
 app.get('/api/v1/recipes', (req, res) => {
-  res.status(200).json(app.locals.recipes);
+  res.status(200).json({ recipes: app.locals.recipes });
 });
 
 app.get('/api/v1/ingredients', (req, res) => {
-  res.status(200).json(app.locals.ingredients);
+  res.status(200).json({ ingredients: app.locals.ingredients });
 });
 
 app.post('/api/v1/usersRecipes', (req, res) => {
